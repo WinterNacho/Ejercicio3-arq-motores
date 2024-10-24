@@ -41,10 +41,10 @@ public:
         Mona::TransformHandle solTransform = planet(world, meshManager, 5.5f, glm::vec3(0.10f, 0.1f, 0.1f));
         
         // planet 1
-        m_planet1Transform = planet(world, meshManager, 2.5f, glm::vec3(0.75f, 0.5f, 0.3f));
+        m_planet1Transform = planet(world, meshManager, 2.5f, glm::vec3(0.0f, 1.0f, 0.1f));
         
         // planet 2
-        m_planet2Transform = planet(world, meshManager, 3.5f, glm::vec3(0.75f, 0.5f, 0.3f));
+        m_planet2Transform = planet(world, meshManager, 3.5f, glm::vec3(0.0f, 0.2f, 1.0f));
 
 	}
 
